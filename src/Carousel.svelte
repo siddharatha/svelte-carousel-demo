@@ -90,7 +90,6 @@
   }
 </style>
 
-<svelte:options tag={null} />
 <carousel
   bind:this={contents}
   class:justifycenter={leftlist.length == 0}

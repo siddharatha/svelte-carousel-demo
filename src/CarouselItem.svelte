@@ -63,7 +63,6 @@
   }
 </style>
 
-<svelte:options tag={null} />
 <div class="cardbox">
   <div class="imgcontainer flexcenter">
     <img src={imageUrl} alt={description} />

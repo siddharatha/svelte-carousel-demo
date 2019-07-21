@@ -1,6 +1,6 @@
 <script>
-  export let items;
-  export let visibleindex;
+  export let items = [];
+  export let visibleindex = 0;
 </script>
 
 <style>
@@ -13,7 +13,6 @@
   }
 </style>
 
-<svelte:options tag="x-paginator" />
 <paginator>
   {#if items}
     {#each items as item, index}
