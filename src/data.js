@@ -1,4 +1,4 @@
-export const contentinfo = [
+export const data = [
   {
     description: "Random text with slide 1",
     imageUrl: "https://picsum.photos/200",
